@@ -35,7 +35,7 @@ section.navbar nav ul li a {
 }
 section.navbar nav ul li a:hover {
     border-bottom: 2px solid tomato;
-}
+} 
 section.navbar nav ul {
     float: right;
 }
