@@ -73,7 +73,7 @@ button.btn-default {
     line-height: 24px;
     border-radius: 6px;
 }
-button.btn-default:hover {
+button.btn-default:hover,input[type="submit"]:hover {
     background: linear-gradient(45deg, #FF8063, #F46060);
     transform: scale(1.1);
     transition: all 0.5s;
@@ -91,7 +91,7 @@ button.btn-default:hover {
 
 /* About Section Styling  */
 /* right side  */
-.about-right-side h2 {
+.about-right-side h2, .footer h3 {
     font-family: 'Bebas Neue',cursive;
     font-size: 48px;
     color: #363958;
@@ -174,8 +174,35 @@ section.footer {
     margin-right: 10%;
 }
 
-/* Footer Section Design  */
-.contact p {
+
+
+
+form#contact-form input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #3C3C3C;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input.half-width {
+    width: 40% !important;
+    margin-right: 20px;
+}
+input.message {
+    height: 200px;
+}
+input[type="submit"] {
+    background: linear-gradient( #F46060, #FF8063);
+    border: none;
+    width: 90% !important;
+    margin-left: 80px;
+    padding: 20px 0px !important;
+}
+.contact h4 {
     font-family: 'Bebas Neue',cursive;
     font-size: 24px;
     text-transform: uppercase;
